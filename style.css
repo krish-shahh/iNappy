@@ -24,8 +24,9 @@ body {
     cursor: pointer; 
 }
 
-
-#frame {
-    height: auto;
-    width: 100%; 
+#leftHalf {
+   width: 50%;
+   position: absolute;
+   left: 0px;
+   height: 100%;
 }
