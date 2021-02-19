@@ -43,8 +43,8 @@ h3 {
 
 /* Add styles to 'container' class */
 .container {
-	padding: 12px 24px 24px 24px;
-	margin: 48px 12px;
+	padding: auto;
+	margin: auto;
 	background: #E3F2FD;
 	border-radius: 4px;
 }
