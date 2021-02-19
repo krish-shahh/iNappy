@@ -12,3 +12,10 @@ body {
    top: 0px;
    height: 50%;
 }
+
+#down {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 50%;
+}
