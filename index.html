@@ -8,25 +8,19 @@
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRHRS_RAM-ke2e6D0qMn0BovR09ZHqGC0kWruq7tgGcx-NmAq1FTfrb7NsydxDRBTUuMoJck5p4jf2S/embed?start=false&loop=false&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" id="leftHalf"></iframe>
 
- <div class="container">  
-  <form id="contact" action="" method="post">
-    <h3>Contact Me</h3>
-    <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-  </form>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>Contact Me</h1>
+                    <form id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqpzvrg" method="post">
+                    <fieldset>
+                        <input type="text" name="name" id="full-name" placeholder="First and Last Name" required>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required><br>
+                        <textarea rows="5" name="message" id="message" placeholder="Please Type your Message Here" required></textarea><br>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">   
+                    </fieldset>
+                    <input type="submit" class="btn_one">
+                    </form>
+        </div>
  
   
 </div>
